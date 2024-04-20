@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.etiket-img,
+.etiket-js {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.etiket-img img,
+.etiket-js img {
+  border-radius: 10px;
+  border: 5px solid rgb(156, 23, 23);
+}

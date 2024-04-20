@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.secme {
+  max-width: 800px;
+  width: 100%;
+  border: 5px solid rgba(138, 28, 8, 0.87);
+
+  border-radius: 30px;
+  padding: 20px;
+  display: flex;
+  margin: 0 auto;
+}
+.secme-info,
+.sinif,
+.name {
+  padding: 20px;
+}
+
+span {
+  color: rgb(126, 240, 12);
+}
+
+.secme-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.secme-img img {
+  border-radius: 10px;
+  border: 5px solid rgb(156, 23, 23);
+}

@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(/img/fon.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+section {
+  padding: 90px;
+}
+
+/*navbar started*/
+.navbar {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 60px;
+  background-color: rgb(173, 74, 16);
+  border-radius: 30px;
+  margin-top: 50px;
+  border: 10px solid rgba(138, 28, 8, 0.87);
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  row-gap: 50px;
+}
+
+.navbar .menu li {
+  display: inline-block;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.navbar .menu li a {
+  text-decoration: none;
+  color: rgb(68, 5, 5);
+  transition: 0.3s ease-in-out;
+}
+
+.navbar .menu li a:hover {
+  color: rgb(229, 228, 231);
+  letter-spacing: 2px;
+}
+
+ul {
+  margin-top: 0;
+}
+/*navbar finished*/
+p {
+  color: whitesmoke;
+  font-size: 24px;
+  text-align: justify;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+  font-size: 36px;
+  color: whitesmoke;
+  font-weight: bold;
+  font-style: italic;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}

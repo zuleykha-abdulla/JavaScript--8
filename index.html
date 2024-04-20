@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <!-----NAVBAR BASLADI-->
+      <div class="navbar">
+        <div class="menu">
+          <nav>
+            <ul>
+              <li class="items">
+                <a href="index.html">Etiketlərin toplu seçilməsi </a>
+              </li>
+              <li class="items"><a href="secme.html">Seçmə elementi </a></li>
+              <li class="items">
+                <a href="obyekt.html"> Obyektlərin yaradılması</a>
+              </li>
+              <li class="items"><a href="funksiya.html"> Funksiya</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <!-----NAVBAR BITDI-->
+    </header>
+    <main>
+      <section>
+        <div class="etiket">
+          <h1>Etiketlərin toplu seçilməsi</h1>
+          <br />
+          <p>
+            Biz daha öncəki mövzularda elementləri id dəyərinə görə tək-tək seçə
+            bilirdik. Ancaq bəzən elementlərin id dəyəri olmur və onları adına
+            və ya sinifinə görə seçməyə ehtiyac olur. Bunun üçün Javascriptdə
+            bir sıra funksiyalar mövcuddur.
+          </p>
+          <br />
+          <h2>Welcome!</h2>
+          <h2>Welcome!</h2>
+          <h2>Welcome!</h2>
+          <br />
+          <p>
+            Nəticədə konsolda NodeList çıxdığını və içərisində 3 ədəd h1
+            elementi olduğunu görəcəyik.
+          </p>
+        </div>
+        <div class="etiket-img">
+          <img src="./img/etiket.png" alt="" />
+        </div>
+        <div class="deyisme">
+          <p>
+            Biz yalnız ilk h3 elementini seçib üzərində əməliyyat aparmaq
+            istəyiriksə aşağıdakı kodu yaza bilərik.
+          </p>
+          <br />
+          <h3>Baki Gozəl Şəhərdir!</h3>
+          <h3>Baki Gozəl Şəhərdir!</h3>
+          <h3>Baki Gozəl Şəhərdir!</h3>
+          <br />
+          <p>
+            Nəticədə ilk h3 elementinin rəngi yasil olmuş olacaq. Burada da
+            sayma 0- dan başlayır.
+            <br />
+            Burada seçimləri sinifə görə də apara bilərik. Bunun üçün
+            funksiyanın içərisində css-də olduğu kimi .sinif yazmalıyıq.
+            Nümunəyə baxaq.
+          </p>
+        </div>
+        <div class="secim">
+          <h1>Həyat gözəldir! Gözəllıkləri hiss edən insan ücün!</h1>
+          <h1 class="a">Həyat gözəldir! Gözəllıkləri hiss edən insan ücün!</h1>
+          <h1 class="a">Həyat gözəldir! Gözəllıkləri hiss edən insan ücün!</h1>
+          <br />
+          <p>Beləliklə, sinifə görə seçim aparırıq.</p>
+        </div>
+        <div class="for">
+          <p>
+            For operatorundan istifadə edərək elementləri hər-biri üzərində
+            əməliyyat apara bilərik. Məsələn, aşağıdakı kodla bütün h4
+            elementlərini yasil rəngdə edək.
+          </p>
+          <h4>Huzura çox ehtiyacimiz var!</h4>
+          <h4>Huzura çox ehtiyacimiz var!</h4>
+          <h4>Huzura çox ehtiyacimiz var!</h4>
+          <br />
+          <p>Beləliklə, bütün h4 etiketləri yasil rəngdə olmuş olur.</p>
+        </div>
+        <div class="etiket-js">
+          <img src="./img/etiket2.png" alt="" />
+        </div>
+      </section>
+    </main>
+
+    <script src="./app/script.js"></script>
+  </body>
+</html>
